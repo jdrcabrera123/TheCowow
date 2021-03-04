@@ -1,0 +1,38 @@
+.navUl {
+  margin-top: $mt-menu;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.nav-link {
+  color: $fontColor;
+  &:hover {
+    /*border-radius: 5px;*/
+    background-color: $btn-menu;
+    color: $fontColor;
+
+    transition: all 0.5s;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8);
+  }
+}
+
+a.active {
+  border-bottom: solid 4px $btn-menu;
+  border-radius: 2px;
+  animation-name: line_menu;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes line_menu {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

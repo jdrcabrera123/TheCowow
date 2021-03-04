@@ -1,0 +1,31 @@
+%proyectos {
+    background-color: $bg-project;
+    .subtitulo1 {
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 90px;
+        text-align: center;
+        color: $fontRed;
+    }
+    .subtitulo2 {
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 70px;
+        text-align: center;
+        margin-top: -70px;
+        color: $fontRed;
+    }
+    .descripcion{
+        width: 80%;
+        margin: auto;
+        .resumen{
+            text-align: center;
+        }
+        .link_empresa{
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+    }
+}
